@@ -3,10 +3,10 @@ import profilePic from '../assets/port-3b.jpg';
 
 function Card() {
     return (
-        <div className="card">
-            <img className="card-img" src={profilePic} alt="profile picture"></img>
-            <h2 className="card-title">Jennie</h2>
-            <p className="card-text">I am learning to code and am an aerialist.</p>
+        <div className={ styles.card }>
+            <img className={styles.cardimg} src={profilePic} alt="profile picture"></img>
+            <h2 className={styles.cardtitle}>Jennie</h2>
+            <p className={styles.cardtext}>I am learning to code and am an aerialist.</p>
         </div>
     );
 }
