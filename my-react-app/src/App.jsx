@@ -9,6 +9,9 @@ import UserGreeting from "./Conditional Rendering/UserGreeting";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import MyComponent2 from "./MyComponent2";
+import MyComponent3 from "./MyComponent3";
+import MyComponent4 from "./MyComponent4";
+import MyComponent5 from "./MyComponent5";
 import Counter from "./Counter/Counter";
 import ColorPicker from "./ColorPicker/ColorPicker";
 import Updater from "./Counter/Updater";
@@ -38,6 +41,9 @@ const fruits = [{id: 1, name: 'passionfruit', calories: 97},
       <Counter />
       <Updater/>
       <MyComponent2 />
+      <MyComponent3 />
+      <MyComponent4 />
+      <MyComponent5 />
       <ColorPicker/>
       {fruits.length > 0 && <List items={ fruits } category="Fruits" />}
       {veg.length > 0 ? <List items={ veg } category="Veggies" /> : null}
