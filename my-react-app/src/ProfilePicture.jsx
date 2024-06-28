@@ -3,7 +3,7 @@ import styles from './Card/Card.module.css';
 
 
 function ProfilePicture() {
-    const imageUrl = './assets/port-1.jpg'
+    const imageUrl = './src/assets/port-1.jpg'
 
     const handleClick = (e) => e.target.style.display = "none";
 
